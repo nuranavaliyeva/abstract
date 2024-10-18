@@ -8,7 +8,7 @@ namespace abstractclass
         {
             Car car = new(4,false,"Mercedes","Çeşka", "silver" ,25 ,50);
            
-            Bicycle bicycle = new Bicycle("Sederek", "kuce velosipedi", "tekerli", "pink", 7, 15);
+            Bicycle bicycle = new Bicycle( "tekerli","Sederek" , "kuce velosipedi",  "pink", 7, 15);
             
             car.AverageSpeed();
             bicycle.AverageSpeed();

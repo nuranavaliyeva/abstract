@@ -26,7 +26,7 @@ namespace abstractclass.Models
         }
         public Bicycle(string type, string factoryname, string model, string color, int drivetime, int drivepath) : base(factoryname, model, color, drivetime, drivepath)
         {
-      _type=Type;
+         _type= type;
 
         }
         public override void DefineNatureHarmness()
